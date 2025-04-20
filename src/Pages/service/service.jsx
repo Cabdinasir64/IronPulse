@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { FaDumbbell, FaRunning, FaHeartbeat } from 'react-icons/fa';
 import Navbar from '../../Components/Navbar'
 import ServiceListing from './components/serviceListing'
+import TrainingPrograms from './components/trainingPrograms'
 
 const Service = () => {
     const heroRef = useRef(null);
@@ -144,6 +145,7 @@ const Service = () => {
                 </div>
             </section>
             <ServiceListing />
+            <TrainingPrograms />
         </>
     );
 };
