@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { FaCrown, FaMedal, FaStar } from 'react-icons/fa';
 import Navbar from '../../Components/Navbar'
+import Footer from '../../Components/Footer'
 import MembershipTiers from './components/membershipTiers'
 const Membership = () => {
   const heroRef = useRef(null);
@@ -174,6 +175,7 @@ const Membership = () => {
       </div>
     </section>
     <MembershipTiers />
+    <Footer />
     </>
   );
 };
