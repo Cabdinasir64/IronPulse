@@ -108,7 +108,7 @@ const Navbar = () => {
                             Membership
                             <span className="absolute left-0 -bottom-1 h-0.5 bg-iron-pulse w-0 group-hover:w-full transition-all duration-300"></span>
                         </Link>
-                        <Link to="/" className="nav-link text-white font-sans font-semibold hover:text-iron-pulse transition-colors relative group">
+                        <Link to="/Contact" className="nav-link text-white font-sans font-semibold hover:text-iron-pulse transition-colors relative group">
                             Contact
                             <span className="absolute left-0 -bottom-1 h-0.5 bg-iron-pulse w-0 group-hover:w-full transition-all duration-300"></span>
                         </Link>

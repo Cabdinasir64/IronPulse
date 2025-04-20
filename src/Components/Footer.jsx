@@ -40,10 +40,10 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li><Link to="/" className="hover:text-iron-pulse transition-colors">Home</Link></li>
               <li><Link to="/Membership" className="hover:text-iron-pulse transition-colors">Membership</Link></li>
-              <li><Link to="/" className="hover:text-iron-pulse transition-colors">Personal Training</Link></li>
-              <li><Link to="/" className="hover:text-iron-pulse transition-colors">Group Classes</Link></li>
-              <li><Link to="/" className="hover:text-iron-pulse transition-colors">About Us</Link></li>
-              <li><Link to="/" className="hover:text-iron-pulse transition-colors">Contact</Link></li>
+              <li><Link to="/PersonalTraining" className="hover:text-iron-pulse transition-colors">Personal Training</Link></li>
+              <li><Link to="/GroupClasses" className="hover:text-iron-pulse transition-colors">Group Classes</Link></li>
+              <li><Link to="/AboutUs" className="hover:text-iron-pulse transition-colors">About Us</Link></li>
+              <li><Link to="/Contact" className="hover:text-iron-pulse transition-colors">Contact</Link></li>
             </ul>
           </div>
 
