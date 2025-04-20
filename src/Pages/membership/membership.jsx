@@ -4,6 +4,7 @@ import { FaCrown, FaMedal, FaStar } from 'react-icons/fa';
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 import MembershipTiers from './components/membershipTiers'
+import MembershipBenefit from './components/membershipBenefit'
 const Membership = () => {
   const heroRef = useRef(null);
   const titleRef = useRef(null);
@@ -127,7 +128,7 @@ const Membership = () => {
         {/* Premium Badge */}
         <div 
           ref={badgeRef}
-          className="flex items-center justify-center bg-iron-pulse text-white px-6 py-2 rounded-full mb-8 shadow-lg"
+          className="hidden md:flex items-center justify-center bg-iron-pulse text-white px-6 py-2 rounded-full mb-8 shadow-lg  "
         >
           <FaCrown className="mr-2" />
           <span className="font-bold">PREMIUM MEMBERSHIPS</span>
@@ -175,6 +176,7 @@ const Membership = () => {
       </div>
     </section>
     <MembershipTiers />
+    <MembershipBenefit />
     <Footer />
     </>
   );
