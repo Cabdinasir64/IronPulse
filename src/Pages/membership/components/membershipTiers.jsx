@@ -240,7 +240,7 @@ const MembershipTiers = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Comparison */}
         <div className="bg-iron-dark rounded-2xl p-8">
           <h3 className="text-2xl font-bold mb-6 text-center">FULL FEATURE COMPARISON</h3>
