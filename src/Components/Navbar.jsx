@@ -93,7 +93,7 @@ const Navbar = () => {
     return (
         <>
             <header className={`fixed w-full top-0 right-0 py-3 font-sans header z-50 header`} ref={header}>
-                <div className="container mx-auto px-4 md:px-8 lg:px-10 flex justify-between items-center">
+                <div className="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center">
                     <Link to="/" className="text-2xl font-bold text-iron-pulse logo">Iron<span className=" text-white">Pulse</span></Link>
                     <nav className="hidden md:flex space-x-8">
                         <Link to="/" className="nav-link text-white font-sans font-semibold hover:text-iron-pulse transition-colors relative group">
