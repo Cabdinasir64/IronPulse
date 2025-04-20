@@ -4,6 +4,7 @@ import { FaDumbbell, FaRunning, FaHeartbeat } from 'react-icons/fa';
 import Navbar from '../../Components/Navbar'
 import ServiceListing from './components/serviceListing'
 import TrainingPrograms from './components/trainingPrograms'
+import Trainer from './components/trainer'
 
 const Service = () => {
     const heroRef = useRef(null);
@@ -146,6 +147,7 @@ const Service = () => {
             </section>
             <ServiceListing />
             <TrainingPrograms />
+            <Trainer />
         </>
     );
 };
