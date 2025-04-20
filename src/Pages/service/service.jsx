@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { FaDumbbell, FaRunning, FaHeartbeat } from 'react-icons/fa';
 import Navbar from '../../Components/Navbar'
+import Footer from '../../Components/Footer'
 import ServiceListing from './components/serviceListing'
 import TrainingPrograms from './components/trainingPrograms'
 import Trainer from './components/trainer'
@@ -148,6 +149,7 @@ const Service = () => {
             <ServiceListing />
             <TrainingPrograms />
             <Trainer />
+            <Footer />
         </>
     );
 };
